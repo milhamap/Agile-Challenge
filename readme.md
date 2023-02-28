@@ -8,6 +8,7 @@ Credits by Muhammad Ilham Adi Pratama
 
 ## Depedencies
 
+### Backend
 - [Express JS](https://expressjs.com/).
 - [Knex](https://knexjs.org/).
 - [JSON Web Token](https://www.npmjs.com/package/@types/jsonwebtoken).
@@ -19,6 +20,14 @@ Credits by Muhammad Ilham Adi Pratama
 - [Morgan](https://www.npmjs.com/package/morgan).
 - [Nodemon](https://www.npmjs.com/package/nodemon).
 
+### Frontend
+- [Axios](https://www.npmjs.com/package/axios)
+- [Bootstrap](https://www.npmjs.com/package/bootstrap)
+- [CoreJS](https://www.npmjs.com/package/core-js)
+- [Vue](https://www.npmjs.com/package/vue)
+- [Vue Cookies](https://www.npmjs.com/package/vue-cookies)
+- [Vue Router](https://www.npmjs.com/package/vue-router)
+
 # Tutorial Github
 
 ## How to Cloning Repository
@@ -28,7 +37,7 @@ Credits by Muhammad Ilham Adi Pratama
 2. Ketikan Perintah Berikut
 
 ```
-git clone https://github.com/milhamap/Agile-Challenge.git
+git clone https://github.com/milhamap/Agile-Challenge.git
 ```
 
 3. Masuk Ke Dalam Folder Hasil Clone
