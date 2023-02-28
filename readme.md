@@ -15,6 +15,7 @@ Credits by Muhammad Ilham Adi Pratama
 - [Cookie Parser](https://www.npmjs.com/package/cookie-parser).
 - [Cors](https://www.npmjs.com/package/cors).
 - [DotENV](https://www.npmjs.com/package/dotenv).
+- [PostgreSQL](https://www.npmjs.com/package/pg)
 - [Morgan](https://www.npmjs.com/package/morgan).
 - [Nodemon](https://www.npmjs.com/package/nodemon).
 
@@ -27,13 +28,13 @@ Credits by Muhammad Ilham Adi Pratama
 2. Ketikan Perintah Berikut
 
 ```
-git clone https://github.com/milhamap/Agile-Challenge.git
+git clone https://github.com/milhamap/Agile-Challenge.git
 ```
 
 3. Masuk Ke Dalam Folder Hasil Clone
 
 ```
-cd Cariilmu.co.id-challenge
+cd Agile-Challenge
 ```
 
 # How to Use and Configuration Node JS Express
@@ -42,11 +43,12 @@ cd Cariilmu.co.id-challenge
    [Download disini](https://nodejs.org/en/download/)
 
 2. Masuk ke Dalam Folder Backend
+
 ```
-cd Backend
+cd backend
 ```
 
-3. Install all javascript dependecies Terlebih Dahulu
+3. Install all javascript dependecies untuk Backend Terlebih Dahulu
 
 ```
 $ npm install
@@ -59,6 +61,7 @@ cp .env.example .env
 ```
 
 5. Ubah dependencies berikut untuk connect ke Postgre Development pada env
+
 ```
 PGHOST_DEV=YOUR_HOST_DEVELOPMENT
 PGDATABASE_DEV=YOUR_DATABASE_DEVELOPMENT
@@ -71,13 +74,29 @@ PGPASSWORD_DEV=YOUR_PASSWORD_DEVELOPMENT
 $ knex migrate:latest
 ```
 
-## How to Run
+7. Run server using `npm` command below
 
-1. Run server using `npm` command below
-```console
+```
 $ npm run dev
 ```
 
-## API Documentation
+8. Untuk proses pembuatan akun seperti login, register, createFood, updateFood dan deleteFood bisa diakses melalui postman dengan dokumentasi berikut [disini](https://documenter.getpostman.com/view/21604420/2s93CRLreQ) dikarenakan untuk pada saat slicing frontend waktunya tidak mencukupi
 
-You can access this project API documentation [here](https://documenter.getpostman.com/view/21604420/2s93CRLreQ)
+# How to Use and Configuration Vue JS
+1. Masuk ke Dalam Folder Frontend
+
+```
+cd frontend
+```
+
+2. Install all javascript dependecies untuk Frontend Terlebih Dahulu
+
+```
+$ npm install
+```
+
+3. Run server using `npm` command below
+
+```
+$ npm run serve
+```
